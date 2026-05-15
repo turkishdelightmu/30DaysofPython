@@ -1,5 +1,7 @@
 # 30 Days of Python 🐍
 
+![30 Days of Python](banner.png)
+
 Working through [@Asabeneh](https://github.com/Asabeneh)'s [30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) challenge at my own pace.
 
 I'm a finance professional transitioning toward data and AI. Python is the foundation. This repo is my honest, unfiltered learning log — no skipping, no faking progress.
