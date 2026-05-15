@@ -1,15 +1,6 @@
 # Day 01 — Introduction to Python
 
-## 1. Checking Python Version
-```python
-import sys
-print(sys.version)
-```
-Use `sys` module to verify which Python version is running.
-
----
-
-## 2. Arithmetic Operators
+## 1. Arithmetic Operators
 
 | Operator | Symbol | Example | Result |
 |----------|--------|---------|--------|
@@ -25,7 +16,7 @@ Use `sys` module to verify which Python version is running.
 
 ---
 
-## 3. Data Types
+## 2. Data Types
 
 | Type | Example |
 |------|---------|
@@ -41,7 +32,7 @@ Use `sys` module to verify which Python version is running.
 
 ---
 
-## 4. Checking Data Types
+## 3. Checking Data Types
 ```python
 print(type(10))        # <class 'int'>
 print(type(9.8))       # <class 'float'>
@@ -52,7 +43,7 @@ Use `type()` to inspect what type a value is. Useful for debugging.
 
 ---
 
-## 5. Practical Exercise — Euclidean Distance
+## 4. Practical Exercise — Euclidean Distance
 
 Formula: `√((x2 - x1)² + (y2 - y1)²)`
 

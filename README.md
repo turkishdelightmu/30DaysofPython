@@ -20,13 +20,12 @@ I'm a finance professional transitioning toward data and AI. Python is the found
 ## Day 01 — Introduction
 
 **What I covered:**
-- Checked Python version via `sys` module
 - Basic arithmetic operators: `+`, `-`, `*`, `/`, `**`, `%`, `//`
 - Data types: int, float, complex, string, list, dict, set, tuple, bool
 - Used `type()` to inspect values
 - Calculated Euclidean distance using pure arithmetic
 
-**File:** `Day1.py`
+**File:** `Day01/Day1.py`
 
 ---
 
