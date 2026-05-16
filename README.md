@@ -13,7 +13,7 @@ I'm a finance professional transitioning toward data and AI. Python is the found
 | Day | Topic | Status |
 |-----|-------|--------|
 | Day 01 | Introduction — Syntax, Data Types, Arithmetic | ✅ Done |
-| Day 02 | Variables, Built-in Functions | ⏳ |
+| Day 02 | Variables, Built-in Functions | ✅ Done |
 | Day 03 | Operators | ⏳ |
 | ... | ... | ... |
 
@@ -28,6 +28,17 @@ I'm a finance professional transitioning toward data and AI. Python is the found
 - Calculated Euclidean distance using pure arithmetic
 
 **File:** `Day01/Day1.py`
+
+## Day 02 — Variables and Built-in Functions
+
+**What I covered:**
+- Declaring variables and assigning values (str, int, float, bool)
+- Multiple assignment on a single line
+- Built-in functions: `type()`, `len()`, `input()`, `float()`, `help()`
+- All seven arithmetic operators applied to variables
+- Calculated circle area and circumference from user input
+
+**Files:** `Day02/Day2.py` · `Day02/Day02_Notes.md`
 
 ---
 
