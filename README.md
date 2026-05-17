@@ -14,7 +14,7 @@ I'm a finance professional transitioning toward data and AI. Python is the found
 |-----|-------|--------|
 | Day 01 | Introduction — Syntax, Data Types, Arithmetic | ✅ Done |
 | Day 02 | Variables, Built-in Functions | ✅ Done |
-| Day 03 | Operators | ⏳ |
+| Day 03 | Operators | ✅ Done |
 | ... | ... | ... |
 
 ---
@@ -39,6 +39,19 @@ I'm a finance professional transitioning toward data and AI. Python is the found
 - Calculated circle area and circumference from user input
 
 **Files:** `Day02/Day2.py` · `Day02/Day02_Notes.md`
+
+## Day 03 — Operators
+
+**What I covered:**
+- Number types: int, float, complex
+- Geometry calculations: triangle area/perimeter, rectangle area/perimeter, circle area/circumference
+- Slope and Euclidean distance between two points
+- Solving `y = x² + 6x + 9` by testing x values
+- String membership with `in` and `not in`
+- Type conversion chain: `int` → `float()` → `str()`
+- Divisibility check with modulus: `n % 2 == 0`
+
+**Files:** `Day03/day3.py` · `Day03/Day3_Notes.md`
 
 ---
 
