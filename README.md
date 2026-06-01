@@ -15,6 +15,7 @@ I'm a finance professional transitioning toward data and AI. Python is the found
 | Day 01 | Introduction — Syntax, Data Types, Arithmetic | ✅ Done |
 | Day 02 | Variables, Built-in Functions | ✅ Done |
 | Day 03 | Operators | ✅ Done |
+| Day 04 | Strings | ✅ Done |
 | ... | ... | ... |
 
 ---
@@ -52,6 +53,20 @@ I'm a finance professional transitioning toward data and AI. Python is the found
 - Divisibility check with modulus: `n % 2 == 0`
 
 **Files:** `Day03/day3.py` · `Day03/Day3_Notes.md`
+
+## Day 04 — Strings
+
+**What I covered:**
+- String length with `len()`, concatenation with `+`
+- Case methods: `upper()`, `lower()`, `capitalize()`, `title()`, `swapcase()`
+- Slicing: index access, negative indexing, range slices
+- Search methods: `in`, `startswith()`, `endswith()`, `index()`, `find()`, `rindex()`, `rfind()`
+- `replace()`, `split()`, `strip()`
+- Acronym generation with a generator expression and `join()`
+- `isidentifier()`, escape sequences (`\n`, `\t`)
+- String formatting with `.format()` and `{:.2f}` for decimal control
+
+**Files:** `Day04/day4.py` · `Day04/day4_Notes.md`
 
 ---
 
