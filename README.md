@@ -16,6 +16,7 @@ I'm a finance professional transitioning toward data and AI. Python is the found
 | Day 02 | Variables, Built-in Functions | ✅ Done |
 | Day 03 | Operators | ✅ Done |
 | Day 04 | Strings | ✅ Done |
+| Day 05 | Lists | ✅ Done |
 | ... | ... | ... |
 
 ---
@@ -67,6 +68,22 @@ I'm a finance professional transitioning toward data and AI. Python is the found
 - String formatting with `.format()` and `{:.2f}` for decimal control
 
 **Files:** `Day04/day4.py` · `Day04/day4_Notes.md`
+
+## Day 05 — Lists
+
+**What I covered:**
+- List creation with `list()` and `[]`; ordered, mutable, duplicates allowed
+- Indexing, negative indexing, and computed middle index (`len(lst)//2`)
+- Slicing: `lst[start:stop]`, `lst[-3:]`, `lst[::-1]` for a reversed copy
+- Mutating: `append()`, `insert()`, slice-insert `lst[i:i] = [x, y]`
+- List concatenation with `+`; joining to a string with `'sep'.join(lst)`
+- `sort()` / `sort(reverse=True)` in place vs `sorted()` (new list)
+- `reverse()`, `pop()`, `remove()`, `clear()`, `del`
+- Median from a sorted list; `abs()` for unsigned deviation
+- Splitting a list into halves; star unpacking `a, b, *rest = lst`
+- Four collection types compared: list, tuple, set, dict
+
+**Files:** `Day05/day5.py` · `Day05/day5_Notes.md`
 
 ---
 
