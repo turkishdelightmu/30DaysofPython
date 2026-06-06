@@ -17,6 +17,7 @@ I'm a finance professional transitioning toward data and AI. Python is the found
 | Day 03 | Operators | ✅ Done |
 | Day 04 | Strings | ✅ Done |
 | Day 05 | Lists | ✅ Done |
+| Day 06 | Tuples | ✅ Done |
 | ... | ... | ... |
 
 ---
@@ -84,6 +85,21 @@ I'm a finance professional transitioning toward data and AI. Python is the found
 - Four collection types compared: list, tuple, set, dict
 
 **Files:** `Day05/day5.py` · `Day05/day5_Notes.md`
+
+## Day 06 — Tuples
+
+**What I covered:**
+- Tuples are ordered and immutable — no `add`, `insert`, or `remove`
+- Single-element tuple requires a trailing comma: `("Fatima",)` not `("Fatima")`
+- Concatenation with `+` returns a new tuple
+- `len()`, indexing, negative indexing, and slicing work the same as lists
+- Unpacking: `a, b, c = tpl` — must match length exactly
+- `tpl[len(tpl)//2]` gives the middle item index, not a numeric average
+- Convert to list with `list()` when mutation is needed
+- `del tpl` removes the whole tuple — can't delete individual items
+- Membership check with `in`
+
+**Files:** `Day06/day6.py` · `Day06/day6_Notes.md`
 
 ---
 
