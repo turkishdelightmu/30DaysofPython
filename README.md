@@ -18,6 +18,8 @@ I'm a finance professional transitioning toward data and AI. Python is the found
 | Day 04 | Strings | ✅ Done |
 | Day 05 | Lists | ✅ Done |
 | Day 06 | Tuples | ✅ Done |
+| Day 07 | Sets | ✅ Done |
+| Day 08 | Dictionaries | ✅ Done |
 | ... | ... | ... |
 
 ---
@@ -100,6 +102,34 @@ I'm a finance professional transitioning toward data and AI. Python is the found
 - Membership check with `in`
 
 **Files:** `Day06/day6.py` · `Day06/day6_Notes.md`
+
+## Day 07 — Sets
+
+**What I covered:**
+
+- Sets are unordered, un-indexed, and hold only unique elements — duplicates are removed automatically
+- `{}` creates an empty dict, not a set — use `set()` for an empty set
+- `add()` for one item, `update()` for multiple; `remove()` raises `KeyError`, `discard()` is silent
+- `pop()` removes a random item; `clear()` empties the set; `del` destroys the variable entirely
+- Set math: `union()`, `intersection()`, `difference()`, `symmetric_difference()`
+- Relationship checks: `issubset()`, `issuperset()`, `isdisjoint()`
+- Used `set()` on a list to count unique elements and deduplicate words in a sentence
+
+**Files:** `Day07/day7.py` · `Day07/day7_Notes.md`
+
+## Day 08 — Dictionaries
+
+**What I covered:**
+
+- Dictionaries are key:value pairs — accessed by key, not index; mutable and insertion-ordered since Python 3.7
+- `dct['key']` raises `KeyError` if missing; `dct.get('key')` returns `None` safely
+- `pop()` removes and returns a value; `del dct['key']` removes without returning
+- `clear()` empties the dict but keeps the variable; `del dct` destroys it entirely
+- `keys()`, `values()`, `items()` return live views of the dictionary
+- Nested dictionaries: a value can itself be a dict (e.g. `address` with `street` and `zipcode`)
+- Skills value is a list — modified in place with `append()`
+
+**Files:** `Day08/day8.py` · `Day08/day8_Notes.md`
 
 ---
 
