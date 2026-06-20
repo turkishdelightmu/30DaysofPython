@@ -168,13 +168,13 @@ num1, num2 = 8, 6
 
 ## ⚠️ Common Traps
 
-| Trap | What happens | Fix |
-|------|-------------|-----|
-| `split(' , ')` on `'word, word'` | Returns whole string as one item | Use `split(', ')` — match exactly |
-| `int(area)` vs `area` in format | `314.0` instead of `314` | Wrap with `int()` |
-| `endswith('coding')` | Case-sensitive → `False` | Match exact case |
-| Spaces count as characters | `company[10]` is `' '` not `'A'` | Count carefully |
-| `index()` vs `find()` | `index()` raises `ValueError` if not found; `find()` returns `-1` | Use `find()` when unsure |
+| Trap                             | What happens                                                      | Fix                               |
+| -------------------------------- | ----------------------------------------------------------------- | --------------------------------- |
+| `split(' , ')` on `'word, word'` | Returns whole string as one item                                  | Use `split(', ')` — match exactly |
+| `int(area)` vs `area` in format  | `314.0` instead of `314`                                          | Wrap with `int()`                 |
+| `endswith('coding')`             | Case-sensitive → `False`                                          | Match exact case                  |
+| Spaces count as characters       | `company[10]` is `' '` not `'A'`                                  | Count carefully                   |
+| `index()` vs `find()`            | `index()` raises `ValueError` if not found; `find()` returns `-1` | Use `find()` when unsure          |
 
 ---
 
