@@ -20,6 +20,7 @@ I'm a finance professional transitioning toward data and AI. Python is the found
 | Day 06 | Tuples | ✅ Done |
 | Day 07 | Sets | ✅ Done |
 | Day 08 | Dictionaries | ✅ Done |
+| Day 09 | Conditionals | ✅ Done |
 | ... | ... | ... |
 
 ---
@@ -130,6 +131,21 @@ I'm a finance professional transitioning toward data and AI. Python is the found
 - Skills value is a list — modified in place with `append()`
 
 **Files:** `Day08/day8.py` · `Day08/day8_Notes.md`
+
+## Day 09 — Conditionals
+
+**What I covered:**
+
+- `if`, `elif`, `else` control flow — Python executes the first matching block; indentation is required
+- Comparison operators: `>`, `<`, `>=`, `<=`, `==`, `!=` — all return `True`/`False`
+- Logical operators: `and`, `or` — combining multiple conditions in one expression
+- Membership with `in` — checking presence in a list or dict
+- `abs()` for unsigned age/value differences; chained comparisons like `90 <= score <= 100`
+- Season detection using `in` with a list of month names + `.capitalize()` for input normalisation
+- Conditional dictionary access: checking key existence before reading nested values
+- Developer-type classification by inspecting a `skills` list with combined `and`/`or` logic
+
+**Files:** `Day09/day9.py` · `Day09/day9_Notes.md`
 
 ---
 
