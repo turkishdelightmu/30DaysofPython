@@ -105,6 +105,7 @@ person = {
         'street': 'Space street',
         'zipcode': '02210'
     }
+}
 
 # 1. Middle skill
 
